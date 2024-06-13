@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+
+</style>
+</head>
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-top w3-bar w3-hide-small" style="background-color:#c73f00">
+  <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-home"></i></a>
+   <a href="#calendario" class="w3-bar-item w3-button"><i class="fa fa-calendar"></i></a>
+  <a href="#map" class="w3-bar-item w3-button"><i class="fa fa-map-marker"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+     
+<!-- Header 
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h6>II-Mini Workshop on</h6>
+      <h1 class="w3-xxxlarge"><b>HIGH PERFORMANCE COMPUTING IN SCIENCE AND ENGINEERING</b></h1>
+    <h6>Welcome to the blog of <span class="w3-tag">Jane's world</span></h6>
+  </header>-->
+
+
+  <!-- Image header -->
+  <header class="w3-container w3-center" id="home">
+    <img class="w3-image" src="img/Inicio.png" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-center">
+       <h9><button class="w3-orange w3-button  w3-padding-large w3-large w3-opacity w3-hover-opacity-off;  bottom: 0; " onclick="document.getElementById('subscribe').style.display='block'">REGISTRO</button></h9>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-margin w3-padding-large w3-white">
+        <div class="w3-center">
+          <h3>II-HPC</h3>
+        </div>
+
+        <div class="w3-justify" >
+          <img src="img/fondo2.png" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <h4>Este taller está organizado por estudiantes e investigadores de, <strong>CIC - IPN e ICF - UNAM</strong>, el cual se llevará a cabo del <strong>16 al 19 de agosto de 2023</strong> en el <strong>Instituto de Ciencias Físicas, UNAM, Cuernavaca</strong>.
+</h4>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large" id="calendario">
+
+        <div class="w3-justify">
+          <img src="img/fondo3.png" alt="Men in Hats" style="width:100%" class="w3-padding-16">
+          <img src="img/calendario.png" alt="Men in Hats" style="width:100%" class="w3-padding-16">
+  
+          <p class="w3-clear"></p>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="img/ri_13.jpeg" alt="Jane" style="width:100%" class="w3-grayscale">
+        <div class="w3-container" style="background-color:#031A44">
+          <h4 style="color:white">Objetivo</h4>
+          <p style="color:white">Establecer y consolidar oportunidades de trabajo entre las distintas instituciones organizadoras en la investigación de cómputo inteligente, ciencias e ingeniería, al establecer lazos que permitan explorar áreas de interés común.</p>
+        </div>
+      </div>
+      <hr>
+
+        <!-- Organizadores -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding" style="background-color:#031A44">
+          <h4 style="color:white">Comité organizador</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="img/cic.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Jazhiel Chacón Lavanderos</span>
+            <br>
+            <span>CIC - IPN</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/icf.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Sofía del Pilar Samario Nava</span>
+            <br>
+            <span>ICF - UNAM</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/icf.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Isidro Gómez Vargas</span>
+            <br>
+            <span>ICF - UNAM</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/unam.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Samantha Rizo Franco</span>
+            <br>
+            <span>FC - UNAM</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/icf.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Gabriel Karim Miranda Carrión</span>
+            <br>
+            <span>ICF - UNAM</span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+        
+      <!-- mapa -->
+      <div class="w3-white w3-margin" id="map">
+        <div class="w3-container w3-padding" style="background-color:#031A44">
+          <h4 style="color:white">Ubicación</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <div class="w3-container w3-display-container w3-light-grey w3-section" style="height:200px">
+            <span class="w3-display-middle">Your AD Here</span>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10671.163781116049!2d-99.24012571446707!3d18.983284359760184!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cde0f542f7c26d%3A0xf91dacd0c6495155!2sInstituto%20de%20Ciencias%20F%C3%ADsicas!5e0!3m2!1ses!2smx!4v1681773752423!5m2!1ses!2smx" style="border:150px;width:100%;height:100%" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container " style="padding:32px">
+  <a href="#home" class="w3-button w3-padding-large w3-margin-bottom" style="background-color:#c73f00"><i class="fa fa-arrow-up w3-margin-right"></i>Inicio</a>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
